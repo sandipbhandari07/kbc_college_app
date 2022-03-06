@@ -1,0 +1,13 @@
+package com.collegeapp.bernhardtinfo;
+
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+
+public class uploadnotice extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_uploadnotice);
+    }
+}
