@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "482204009793",
+    "project_id": "bernhardtinfo-6b09e",
+    "storage_bucket": "bernhardtinfo-6b09e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482204009793:android:8a8720c70e067570d70dc0",
+        "android_client_info": {
+          "package_name": "com.collegeapp.bernhardtinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482204009793-ce5fm0d12b5tca1ns1dr3jajq9don09u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyATgdGViy2wkr5jiLv-1VtrfsiKN_EW3D4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482204009793-ce5fm0d12b5tca1ns1dr3jajq9don09u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
