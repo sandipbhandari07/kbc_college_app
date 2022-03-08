@@ -17,11 +17,9 @@
         android:layout_width="130dp"
         android:layout_height="150dp"
         android:layout_margin="10dp"
-        android:id="@+id/addNotice"
+        android:id="@+id/addNotice1234"
         android:layout_gravity="center"
-        android:elevation="5dp"
-
-        >
+        android:elevation="5dp">
         <LinearLayout
             android:background="@color/white"
             android:layout_width="match_parent"
@@ -86,7 +84,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:id="@+id/noticeImageView"
+                android:id="@+id/noticeImageViewPrv"
                 />
 
         </com.google.android.material.card.MaterialCardView>
