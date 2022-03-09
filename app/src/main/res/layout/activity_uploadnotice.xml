@@ -61,7 +61,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             >
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/noticetitle"
+                android:id="@+id/noticetitletxt"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Notice title"
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:text="upload notice"
             android:layout_marginTop="16dp"
-            android:id="@+id/uploadnoticebtn"
+            android:id="@+id/uploadnoticebtntxt"
             />
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
