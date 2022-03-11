@@ -12,7 +12,7 @@ import androidx.cardview.widget.CardView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    CardView uploadnotice;
+    CardView uploadnotice,addGalleryImage;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,15 +20,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
 
         uploadnotice = findViewById(R.id.addNotice);
+        addGalleryImage=findViewById(R.id.addGalleryimage);
+
         uploadnotice.setOnClickListener(this);
+        addGalleryImage.setOnClickListener(this);
 
 
     }
     @Override
     public void onClick(View view) {
+        Intent intent;
      switch (view.getId()){
          case R.id.addNotice:
-             Intent intent= new Intent(MainActivity.this,uploadnotice.class);
+             intent = new Intent(MainActivity.this,uploadnotice.class);
+             startActivity(intent);
+             break;
+         case R.id.addGalleryimage:
+             intent = new Intent(MainActivity.this,UploadImage.class);
              startActivity(intent);
              break;
      }

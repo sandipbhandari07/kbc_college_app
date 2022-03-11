@@ -58,7 +58,7 @@
             android:layout_width="130dp"
             android:layout_height="150dp"
             android:layout_margin="10dp"
-            android:id="@+id/addimage"
+            android:id="@+id/addGalleryimage"
             android:elevation="5dp"
             >
             <LinearLayout
@@ -83,7 +83,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Upload Notice"
+                    android:text="Upload Image"
                     android:textStyle="bold"
                     android:padding="5dp"
                     android:layout_marginTop="10dp"
