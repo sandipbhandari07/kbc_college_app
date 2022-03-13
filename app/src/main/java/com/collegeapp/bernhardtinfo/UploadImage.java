@@ -146,7 +146,7 @@ public class UploadImage extends AppCompatActivity {
             @Override
             public void onFailure(@NonNull Exception e) {
                 pdg.dismiss();
-                Toast.makeText(UploadImage.this, "somrthing gone wrong", Toast.LENGTH_SHORT).show();
+                Toast.makeText(UploadImage.this, "something gone wrong", Toast.LENGTH_SHORT).show();
 
             }
         });

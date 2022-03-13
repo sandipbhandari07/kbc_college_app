@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-
-    tools:context=".uploadnotice">
+    tools:context=".UploadPdf">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,46 +13,46 @@
         android:gravity="center"
         android:layout_margin="10dp"
         >
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="130dp"
-        android:layout_height="150dp"
-        android:layout_margin="10dp"
-        android:id="@+id/addNotice1234"
-        android:layout_gravity="center"
-        android:elevation="5dp">
-        <LinearLayout
-            android:background="@color/white"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical"
-            android:gravity="center">
-            <ImageView
-
-                android:layout_width="64dp"
-                android:layout_height="64dp"
-                android:background="@drawable/color_purple"
-                android:src="@drawable/ic_addimage1"
-                android:padding="15dp" />
-
-            <View
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="130dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp"
+            android:id="@+id/addPdf"
+            android:layout_gravity="center"
+            android:elevation="5dp">
+            <LinearLayout
+                android:background="@color/white"
                 android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:background="@color/lightgray"
-                android:layout_marginTop="10dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+                <ImageView
 
-                />
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Select Image"
-                android:textStyle="bold"
-                android:padding="5dp"
-                android:layout_marginTop="10dp"
-                android:textColor="@color/textcolor"
-                />
-        </LinearLayout>
+                    android:layout_width="64dp"
+                    android:layout_height="64dp"
+                    android:background="@drawable/color_yellow"
+                    android:src="@drawable/ic_pdf"
+                    android:padding="15dp" />
 
-    </com.google.android.material.card.MaterialCardView>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/lightgray"
+                    android:layout_marginTop="10dp"
+
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Image"
+                    android:textStyle="bold"
+                    android:padding="5dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/textcolor"
+                    />
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_marginTop="16dp"
@@ -62,7 +61,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             >
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/noticetitletxt"
+                android:id="@+id/pdfTitle"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Notice title"
@@ -74,7 +73,7 @@
             android:layout_height="wrap_content"
             android:text="upload notice"
             android:layout_marginTop="16dp"
-            android:id="@+id/uploadnoticebtntxt"
+            android:id="@+id/pdfupdatebtn"
             />
         <com.google.android.material.card.MaterialCardView
             android:layout_width="match_parent"
@@ -85,11 +84,12 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="centerCrop"
-                android:id="@+id/noticeImageViewPrv"
+                android:id="@+id/pdfupdatePrv"
                 />
 
         </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
+
 
 </ScrollView>

@@ -12,7 +12,7 @@ import androidx.cardview.widget.CardView;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
-    CardView uploadnotice,addGalleryImage;
+    CardView uploadnotice,addGalleryImage,uploadebook;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         uploadnotice = findViewById(R.id.addNotice);
         addGalleryImage=findViewById(R.id.addGalleryimage);
+        uploadebook=findViewById(R.id.uploadebook);
 
         uploadnotice.setOnClickListener(this);
         addGalleryImage.setOnClickListener(this);
@@ -37,6 +38,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
              break;
          case R.id.addGalleryimage:
              intent = new Intent(MainActivity.this,UploadImage.class);
+             startActivity(intent);
+             break;
+         case R.id.uploadebook:
+             intent = new Intent(MainActivity.this,UploadPdf.class);
              startActivity(intent);
              break;
      }
