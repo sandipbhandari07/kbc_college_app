@@ -71,23 +71,10 @@
         <com.google.android.material.button.MaterialButton
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="upload notice"
+            android:text="upload notes"
             android:layout_marginTop="16dp"
             android:id="@+id/pdfupdatebtn"
             />
-        <com.google.android.material.card.MaterialCardView
-            android:layout_width="match_parent"
-            android:layout_marginTop="16dp"
-            android:layout_height="400dp"
-            >
-            <ImageView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:scaleType="centerCrop"
-                android:id="@+id/pdfupdatePrv"
-                />
-
-        </com.google.android.material.card.MaterialCardView>
 
     </LinearLayout>
 
