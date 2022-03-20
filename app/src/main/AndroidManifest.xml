@@ -13,6 +13,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BernHardtInfo">
         <activity
+            android:name=".faculty.AddTeachers"
+            android:exported="false" />
+        <activity
+            android:name=".faculty.updatefaculty"
+            android:exported="false" />
+        <activity
             android:name=".UploadPdf"
             android:exported="false" />
         <activity
