@@ -66,7 +66,7 @@ public class AddTeachers extends AppCompatActivity {
 
         pdg=new ProgressDialog(this);
 
-        String[] items=new String[]{"select category","BCA","BSc.CSIT","BBM","BASW","BBS","MBS"};
+        String[] items=new String[]{"select category","BCA","BSc.CSIT","BBM","BASW","BBS"};
         add_teacher_cate.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_spinner_dropdown_item,items));
 
         add_teacher_cate.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
